@@ -1889,6 +1889,26 @@ section {
   font-size: 14px;
 }
 
+/* whatsapp icon */
+.demoicons{
+  position: fixed;
+  bottom: 80px;
+  left: 20px;
+  text-align: center;
+  border: none;
+  z-index: 1;
+}
+.demoicons .whatsappicon{
+  max-height: 70px;
+  border-radius: 50%;
+  padding: 5px;
+  border: none;
+  transition: all ease-in-out 0.1s;
+}
+.demoicons .whatsappicon:hover{
+  transform: scale(1.06);
+}
+
 /*--------------------------------------------------------------
 # Footer
 --------------------------------------------------------------*/
